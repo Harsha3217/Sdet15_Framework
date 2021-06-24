@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-12T16:13:45 IST" name="Suite" finished-at="2021-06-12T16:16:55 IST" duration-ms="190083">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="TC_41_SearchOrganizationTest.searchOrganization()[pri:0, instance:com.crm.comcast.OrganisationTest.TC_41_SearchOrganizationTest@26d9b808]" name="searchOrganization" class="com.crm.comcast.OrganisationTest.TC_41_SearchOrganizationTest"/>
+      </group> <!-- SmokeTest -->
+    </groups>
+    <test started-at="2021-06-12T16:13:45 IST" name="Test" finished-at="2021-06-12T16:16:55 IST" duration-ms="190083">
+      <class name="com.crm.comcast.OrganisationTest.TC_41_SearchOrganizationTest">
+        <test-method is-config="true" signature="connectToDB()[pri:0, instance:com.crm.comcast.OrganisationTest.TC_41_SearchOrganizationTest@26d9b808]" started-at="2021-06-12T16:13:43 IST" name="connectToDB" finished-at="2021-06-12T16:13:45 IST" duration-ms="1562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectToDB -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.comcast.OrganisationTest.TC_41_SearchOrganizationTest@26d9b808]" started-at="2021-06-12T16:13:45 IST" name="launchBrowser" finished-at="2021-06-12T16:14:46 IST" duration-ms="61698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.crm.comcast.OrganisationTest.TC_41_SearchOrganizationTest@26d9b808]" started-at="2021-06-12T16:14:46 IST" name="loginToApplication" finished-at="2021-06-12T16:15:45 IST" duration-ms="58512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="searchOrganization()[pri:0, instance:com.crm.comcast.OrganisationTest.TC_41_SearchOrganizationTest@26d9b808]" started-at="2021-06-12T16:15:45 IST" name="searchOrganization" finished-at="2021-06-12T16:16:29 IST" duration-ms="44531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchOrganization -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:com.crm.comcast.OrganisationTest.TC_41_SearchOrganizationTest@26d9b808]" started-at="2021-06-12T16:16:29 IST" name="logoutFromApplication" finished-at="2021-06-12T16:16:39 IST" duration-ms="9595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.comcast.OrganisationTest.TC_41_SearchOrganizationTest@26d9b808]" started-at="2021-06-12T16:16:39 IST" name="closeBrowser" finished-at="2021-06-12T16:16:55 IST" duration-ms="15654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="closeDB()[pri:0, instance:com.crm.comcast.OrganisationTest.TC_41_SearchOrganizationTest@26d9b808]" started-at="2021-06-12T16:16:55 IST" name="closeDB" finished-at="2021-06-12T16:16:55 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDB -->
+      </class> <!-- com.crm.comcast.OrganisationTest.TC_41_SearchOrganizationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
